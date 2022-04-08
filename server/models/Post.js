@@ -10,7 +10,7 @@ const Post = db.sequelize.define('users',{
         type: db.Sequelize.TEXT
     }
 })
-//comentar a linha 14 apos a primeira execução
+//comentar a linha 14 apos a primeira execução (ele vai criar a tabela pra vc de acordo com as colunas definidas acima)
 //  Post.sync({force: true})
 
 
